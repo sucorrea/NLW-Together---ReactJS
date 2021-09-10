@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import AdminRoom from "./Pages/AdminRoom";
+import AuthContextProvider from "./Context/AuthContext";
 import Home from "./Pages/Home";
 import NewRoom from "./Pages/NewRoom";
-import AuthContextProvider from "./Context/AuthContext";
 import Room from "./Pages/Room";
-import AdminRoom from "./Pages/AdminRoom";
 
 function App() {
   return (
